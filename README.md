@@ -1,5 +1,5 @@
 # MMM-Rijks
-MagicMirror module for Rijks gallery. This was developed using the Rijksmuseum API.
+MagicMirror module for Rijks Museum. This was developed using the Rijksmuseum API.
 
 ## Screenshots
 ![screenshot](https://github.com/eouia/MMM-Rijks/blob/master/scr1.png?raw=true)
