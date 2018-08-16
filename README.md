@@ -2,6 +2,9 @@
 MagicMirror module for Rijks gallery. This was developed using the Rijksmuseum API.
 
 ## Screenshots
+![screenshot](https://github.com/eouia/MMM-Rijks/blob/master/scr1.png?raw=true)
+
+![screenshot](https://github.com/eouia/MMM-Rijks/blob/master/scr2.png?raw=true)
 
 
 ## Installation
