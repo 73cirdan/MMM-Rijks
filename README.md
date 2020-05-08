@@ -1,5 +1,6 @@
 # MMM-Rijks
 MagicMirror module for Rijks Museum. This was developed using the Rijksmuseum API.
+Developed by eouia, since may 2020 maintained by 73cirdan.
 
 ## Screenshots
 ![screenshot](https://github.com/eouia/MMM-Rijks/blob/master/scr1.png?raw=true)
@@ -10,7 +11,7 @@ MagicMirror module for Rijks Museum. This was developed using the Rijksmuseum AP
 ## Installation
 ```shell
 cd ~/MagicMirror/modules
-git clone https://github.com/eouia/MMM-Rijks.git
+git clone https://github.com/73cirdan/MMM-Rijks.git
 ```
 
 ## Get API info & collection user set.
