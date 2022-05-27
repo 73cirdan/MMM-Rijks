@@ -10,19 +10,19 @@ Module.register("MMM-Rijks", {
     account: {
       userId: "",
       apiKey: "",
-      setId: "",
+      setId: ""
     },
-    refreshInterval: 1000*60
+    refreshInterval: 1000 * 60
   },
   getStyles: function () {
     return ["MMM-Rijks.css"];
   },
 
-  start: function() {
+  start: function () {
     this.sendSocketNotification("INIT", this.config);
   },
 
-  getDom: function() {
+  getDom: function () {
     var wrapper = document.createElement("div");
     wrapper.id = "RIJKS";
     var image = document.createElement("div");
@@ -45,27 +45,27 @@ Module.register("MMM-Rijks", {
     return wrapper;
   },
 
-  socketNotificationReceived: function(notification, payload) {
-    switch(notification) {
+  socketNotificationReceived: function (notification, payload) {
+    switch (notification) {
       case "NEW_IMAGE":
         this.showImage(payload);
         break;
       //case "SCAN_FAIL":
-        //document.getElementById("RIJKS").innerHTML = "Scanning Failed."
-        //break
+      //document.getElementById("RIJKS").innerHTML = "Scanning Failed."
+      //break
       //case "ITEM_FAIL":
-        //document.getElementById("RIJKS").innerHTML = "getting items Failed."
-        //break
+      //document.getElementById("RIJKS").innerHTML = "getting items Failed."
+      //break
     }
   },
 
-  showImage: function(item) {
+  showImage: function (item) {
     var wrapper = document.getElementById("RIJKS");
     var image = document.getElementById("RIJKS_IMAGE");
     var description = document.getElementById("RIJKS_DESCRIPTION");
     if (this.config.useDescription) {
       description.innerHTML = "";
-      description.style.display= "none";
+      description.style.display = "none";
       var title = document.createElement("div");
       title.className = "title";
       title.innerHTML = item.title;
@@ -86,9 +86,9 @@ Module.register("MMM-Rijks", {
       location.className = "location";
       location.innerHTML = item.location;
       description.appendChild(location);
-      var timer = setTimeout(()=>{
+      var timer = setTimeout(() => {
         clearTimeout(timer);
-        description.style.display="block";
+        description.style.display = "block";
       }, 2000);
     }
 
@@ -99,7 +99,5 @@ Module.register("MMM-Rijks", {
       image.style.backgroundImage = `url("${item.cdnUrl}")`;
     }
     pre.style.backgroundImage = `url("${item.nextImage}")`;
-
-  },
-
-})
+  }
+});

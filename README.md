@@ -1,20 +1,23 @@
 # MMM-Rijks
+
 MagicMirror module for Rijks Museum. This was developed using the Rijksmuseum API.
 Developed by eouia, since may 2020 maintained by 73cirdan.
 
 ## Screenshots
+
 ![screenshot](https://github.com/eouia/MMM-Rijks/blob/master/scr1.png?raw=true)
 
 ![screenshot](https://github.com/eouia/MMM-Rijks/blob/master/scr2.png?raw=true)
 
-
 ## Installation
+
 ```shell
 cd ~/MagicMirror/modules
 git clone https://github.com/73cirdan/MMM-Rijks.git
 ```
 
 ## Get API info & collection user set.
+
 1. Sign in to Rijks Museum. (https://www.rijksmuseum.nl/)
 2. After login, go to your profile settings (https://www.rijksmuseum.nl/en/rijksstudio/my/profile)
 3. find and click `Advanced settings` on end of page.
@@ -27,6 +30,7 @@ git clone https://github.com/73cirdan/MMM-Rijks.git
 10. Let's configure.
 
 ## Configuration
+
 ```javascript
 {
   module: "MMM-Rijks",
