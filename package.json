@@ -1,0 +1,24 @@
+{
+  "name": "MMM-Rijks",
+  "version": "2.2.0",
+  "description": "MagicMirror module for Rijks Museum. This was developed using the Rijksmuseum API. Developed by eouia, since may 2020 maintained by 73cirdan.",
+  "main": "MMM-Rijks.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/73cirdan/MMM-Rijks.git"
+  },
+  "keywords": [
+    "MagicMirror",
+    "Art",
+    "Rijksmuseum"
+  ],
+  "author": "Cirdan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/73cirdan/MMM-Rijks/issues"
+  },
+  "homepage": "https://github.com/73cirdan/MMM-Rijks#readme",
+  "dependencies": {
+    "axios": "^0.27.1"
+  }
+}
