@@ -11,10 +11,17 @@ Developed by eouia, since may 2020 maintained by 73cirdan.
 
 ## Installation
 
-```shell
-cd ~/MagicMirror/modules
-git clone https://github.com/73cirdan/MMM-Rijks.git
-```
+Navigate into your MagicMirror's `modules` folder and execute
+
+
+`git clone https://github.com/73cirdan/MMM-Rijks.git`
+
+
+After that go into the `MMM-Rijks` folder and excute
+
+
+`npm install`
+ 
 
 ## Get API info & collection user set.
 
