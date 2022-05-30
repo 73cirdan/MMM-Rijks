@@ -31,7 +31,7 @@ module.exports = NodeHelper.create({
   scanCollection: function () {
     var account = this.config.account;
     var query = `https://www.rijksmuseum.nl/api/en/usersets/${account.userId}-${account.setId}?key=${account.apiKey}&format=json`;
-    console.log(query);
+    //console.log(query);
     const self = this;
 
     axios
@@ -47,8 +47,7 @@ module.exports = NodeHelper.create({
   },
 
   handleError: function (self, error) {
-    // handle error
-    console.log(error);
+    // handle error console.log(error);
     var errorText = "";
     if (error.response) {
       // The request was made and the server responded with a status code
