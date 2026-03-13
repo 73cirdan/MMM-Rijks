@@ -1,4 +1,4 @@
-# MMM-Rijks
+# MMM-Rijks [BROKEN - Due to API Change @ Rijks the module no longer works ]
 
 MagicMirror module for Rijks Museum. This was developed using the Rijksmuseum API.
 Developed by eouia, since may 2020 maintained by 73cirdan.
